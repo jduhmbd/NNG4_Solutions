@@ -214,13 +214,3 @@ theorem add_sq (a b : MyNat) : (a + b) ^ two = (a ^ two) + (b ^ two) + (two * a 
   -- Done : a * a + b * b + a * b + a * b =
   --        a * a + b * b + a * b + a * b
 
-
-
-
-
-
--- World     :   Power World
--- Level 10  :   Fermat's Last Theorem
-
-theorem fermat_last_theorem (a b c n : MyNat) : (a+one)^(n+three) + (b+one)^(n+three) ≠ (c+one)^(n+three) := by
-  sorry
